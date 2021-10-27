@@ -52,7 +52,8 @@ tipo('teste de frase');
 tipo(2+2);
 
 let circunferencia = function (raio) {
-    console.log (2 * Math.PI * raio);
+    let formula = 2 * Math.PI * raio;
+    Math.round(formula);
 }
 
 circunferencia(4);

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px;
+
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    background-color: sienna;
+}
+
+.texto {
+    width: 100%;
+    height: 100%;
+    background-color: tan;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color:darkred;
+}
+
+.one {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.two {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.three {
+    position: fixed;
+    bottom: 0;
+    left: calc(50% - 100px);
+}

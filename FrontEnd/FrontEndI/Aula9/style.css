@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    padding-left: calc(50% - 100px);
+    background-color: #020101bd;
+    color: darkgray;
+}
+
+#menu-list {
+    left: calc(50% - 100px);
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.menu-item {
+    float: left;
+    list-style: none;
+    margin: 15px 10px;
+}
+
+#banner {
+    width: 100%;
+    height: 400px;
+    background-image:url(./imgs/banner.jpg);
+    background-size:contain no-repeat;
+    background-position: center;
+    /* background-position-y: calc (50%-200px); */
+}
+
+#box {
+    margin: 50px;
+}
+
+.content-box {
+    width: 300px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.content-box h1 {
+    font: bold 24   px "Times New Roman", serif;
+    color: #248a29;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.img-box {
+    width: 300px;
+}
+
+.button-box {
+    width: 100px;
+    position:relative;
+    left: calc(50% - 40px);
+    font: bold 15px "Helvetica", sans-serif;
+    color: #EE8889;
+    padding: 8px;
+    border: 1px solid #EE8889;
+    border-radius: 5px;
+}
+
+.whatsapp {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+

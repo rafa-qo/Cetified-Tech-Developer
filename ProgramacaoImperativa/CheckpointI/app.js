@@ -6,7 +6,7 @@ Feijão: 4
 Brigadeiro: 5 */
 
 
-/* function microondas(prato, tempo) {
+function microondas(prato, tempo) {
     switch (prato){
         case 1:
             if (tempo >19 && tempo < 30){
@@ -83,7 +83,7 @@ microondas(3, 15);
 microondas(4, 24);
 microondas(4, 36);
 microondas(4, 11);
-microondas(4, 12); */
+microondas(4, 12);
 
 
 /* Opção 2

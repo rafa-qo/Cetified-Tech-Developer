@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <img src="https://d1uz88p17r663j.cloudfront.net/resized/fbf2fb2f259eabab1ef6ab5cc4324165_bolo-mousse-chocolate-receitas-nestle_1200_600.jpg" width="200px">
+        <form>
+            <h1>Pedido de bolo</h1>
+            
+            <fieldset>
+
+                <legend>Dados pessoais</legend>
+
+                <div>
+                    <label for="formNome">Nome Completo</label>
+                    <input type="text" name="formNome" id="formNome" placeholder="Escreva seu nome">
+                </div>
+
+                <div>
+                    <label for="formCel">Celular</label>
+                    <input type="email" name="formCel" id="formCel" placeholder="DDD + Telefone">
+                </div>
+
+                <div>
+                    <label for="end">Endereço Completo</label>
+                    <input type="email" name="end" id="end" placeholder="Rua, no., bairro, cidade e CEP.">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Pagamento e entrega</legend>
+
+                <div>
+                    <h1>Pagamento</h1>
+                    
+                    <input type="radio" name="payment" id="credit" checked>
+                    <label for="credit">Crédito</label>
+
+                    <input type="radio" name="payment" id="debit">
+                    <label for="debit">Débito</label>
+
+                    <input type="radio" name="payment" id="bill">
+                    <label for="bill">Boleto</label>
+                </div>
+
+                <div>
+                    <h1>Entrega</h1>
+                    
+                    <label for="delivery">Entrega ou retirada</label>
+                    <select name="delivery" id="delivery">
+                        <option value="1">Entrega</option>
+                        <option value="2">Retirada na loja</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="data">Data de entrega</label>
+                    <input type="date" name="data" id="data" min="2021-11-16" max="2021-11-23">
+                </div>
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Informações do Pedido</legend>
+
+                <div>
+
+                    <h1>Selecione as coberturas</h1>
+
+                    <input type="checkbox" name="options" id="primeira-opt">
+                    <label for="primeira-opt">Chocolate</label>
+
+                    <input type="checkbox" name="options" id="segunda-opt">
+                    <label for="segunda-opt">Castanhas</label>
+
+                    <input type="checkbox" name="options" id="terceira-opt">
+                    <label for="terceira-opt">Brigadeiros</label>
+
+                </div>
+
+                <div>
+                    <h1>Recheio</h1>
+                    
+                    <input type="radio" name="recheio" id="chocolate" checked>
+                    <label for="chocolate">Chocolate</label>
+
+                    <input type="radio" name="recheio" id="brigadeiro">
+                    <label for="brigadeiro">Brigadeiro</label>
+
+                    <input type="radio" name="recheio" id="morango">
+                    <label for="morango">Morango</label>
+                </div>
+
+                <div>
+                    <label for="formTextArea">Tem informações específicas?</label>
+                    <textarea name="formTextArea" id="formTextArea" cols="30" rows="10" placeholder="Descreva o que você gostaria de personalizar"></textarea>
+                </div>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar dados</button>
+
+        </form>
+
+    </main>
+
+
+</body>
+</html>

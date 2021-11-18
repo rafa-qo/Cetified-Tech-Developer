@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 50px;
+}
+
+.main-header {
+    margin: 50px 0 0 50px;
+}
+
+.main-header ul {
+    color: white;
+    font: bold 20px "Helvetica";
+}
+
+.main-header ul li {
+    width: 100px;
+    border-radius: 10px;
+    margin: 0 0 3px 3px;
+    padding: 5px;
+    background-color: indianred;
+    text-align: center;
+    list-style: none;
+    float: left;
+}
+
+.main-header ul li:nth-child(even) {
+    background-color:indigo;
+
+}
+
+.main-text::first-letter {
+    font-size: 30px;
+}
+
+.main-text::selection {
+    background-color: black;
+    color: white;
+}
+
+.input-name, .input-email {
+    width: 200px;
+    padding: 5px;
+    margin: 0 0 10px;
+    background-color: #a8a8a8;
+    color: white;
+    border-radius: 10px;
+    transition: .5s;
+    border: none;
+    transition: 1s;
+}
+
+.input-name:hover, .input-email:hover {
+    width: 400px;
+    background-color: #cccccc;
+    color: grey;
+}
+
+.input-name:focus, .input-email:focus {
+    width: 400px;
+    background-color: #f0efef;
+    color: grey;
+}
+
+.input-email:disabled {
+    width: 400px;
+    color: grey;
+    border: 1px solid red;
+}
+
+.save {
+    padding: 10px;
+    margin: 20px 0 20px;
+    border-radius: 20px;
+    background-color: coral;
+    font: bold 20px "Helvetica", sans-serif;
+    transition: 1s;
+    border: none;
+}
+
+.save:hover {
+    background-color:chocolate;
+    color: white;
+    border: 2px solid brown;
+
+}
+
+.checkbox {
+    width: 15px;
+    height: 15px;
+}
+
+.checkbox:checked {
+    width: 25px;
+    height: 25px;
+}

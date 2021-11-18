@@ -25,3 +25,20 @@ function imprimirInverso () {
 
 console.log (imprimirInverso());
 
+function inverter(array) {
+    return array = funcao.slice(array).reverse();
+}
+
+console.log(inverter(2));
+
+let soma = [2,6,8,93,4];
+let soma2 = [10,3,10,4];
+let soma3 =[10,3,10,4]
+
+function somarArray(array) {
+    ((array.pop())*array.length);
+
+}
+
+console.log (somarArray(soma));
+console.log(somarArray(soma2));

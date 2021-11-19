@@ -1,29 +1,29 @@
-// let peliculas = ["star wars", "totoro", "rocky", "pulp fiction", "la vida es bella"]
-// let animacoes = ["Toy Story", "Procurando Nemo", "Kung-fu Panda", "Wally", "Fortnite"]
+let peliculas = ["star wars", "totoro", "rocky", "pulp fiction", "la vida es bella"]
+let animacoes = ["Toy Story", "Procurando Nemo", "Kung-fu Panda", "Wally", "Fortnite"]
 
-// function converterMaiuscula(array) {
-//     for (let i=0; i < array.length; i++) {
+function converterMaiuscula(array) {
+    for (let i=0; i < array.length; i++) {
 
-//         array[i] = array[i].toUpperCase()
+        array[i] = array[i].toUpperCase()
     
-//     }
+    }
 
-//     return array;
-// }
+    return array;
+}
 
-// console.log (converterMaiuscula(peliculas));
+console.log (converterMaiuscula(peliculas));
 
 
-// function passagemFilmes(peliculas, animacoes) {
-//     let limit = animacoes.length
-//     for (let i=0; i < limit; i++) {
-//         peliculas.push(animacoes.pop().toUpperCase());
-//     }
+function passagemFilmes(peliculas, animacoes) {
+    let limit = animacoes.length
+    for (let i=0; i < limit; i++) {
+        peliculas.push(animacoes.pop().toUpperCase());
+    }
 
-//     return peliculas;
-// }
+    return peliculas;
+}
 
-// console.log(passagemFilmes(peliculas, animacoes));
+console.log(passagemFilmes(peliculas, animacoes));
 
 let peliculas = ["star wars", "totoro", "rocky", "pulp fiction", "la vida es bella"]
 let animacoes = ["Toy Story", "Procurando Nemo", "Kung-fu Panda", "Wally", "Fortnite"]

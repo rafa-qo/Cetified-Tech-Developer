@@ -33,12 +33,72 @@ console.log(inverter(2));
 
 let soma = [2,6,8,93,4];
 let soma2 = [10,3,10,4];
-let soma3 =[10,3,10,4]
+// let soma3 =[10,3,10,4]
+
 
 function somarArray(array) {
-    ((array.pop())*array.length);
+    let total = 0;
 
+    for (i = 0; i < array.length; i++) {
+    total += array[i];
+    }
+    return total;
 }
 
 console.log (somarArray(soma));
-console.log(somarArray(soma2));
+console.log (somarArray(soma2));
+
+let filmes = ["star wars", "matrix", "mr. robot", "o preço do amanhã", "a vida é bela"];
+
+console.log(filmes[2]);
+
+function upperCase (array) {
+    array[0] = array[0].toUpperCase();
+    array[1] = array[1].toUpperCase();
+    array[2] = array[2].toUpperCase();
+    array[3] = array[3].toUpperCase();
+    array[4] = array[4].toUpperCase();
+
+    return array;
+}
+
+console.log(upperCase(filmes));
+
+let animacao = ["Toy Story", "Procurando Nemo", "Kung-fu Panda", "Wally", "Fortnite"]
+
+function juntaTudo (array3, array4) {
+    array3.push(array4[0]);
+    array3.push(array4[1]);
+    array3.push(array4[2]);
+    array3.push(array4[3]);
+    array3.push(array4[4]);
+    return array3;
+}
+
+let tudoJunto = juntaTudo(filmes,animacao);
+console.log (tudoJunto);
+
+let game = tudoJunto.pop();
+
+console.log(game);
+console.log(tudoJunto);
+
+const asiaScores = [8, 10, 6, 9, 10, 6, 6, 8, 4];
+const euroScores = [8, 10, 6, 8, 10, 6, 7, 9, 5];
+
+function comparaNota(asiaScores, euroScores) {
+    let resultado = "";
+    resultado = [ 
+        asiaScores[0] === euroScores[0],
+        asiaScores[1] === euroScores[1],
+        asiaScores[2] === euroScores[2],
+        asiaScores[3] === euroScores[3],
+        asiaScores[4] === euroScores[4],
+        asiaScores[5] === euroScores[5],
+        asiaScores[6] === euroScores[6],
+        asiaScores[7] === euroScores[7],
+        asiaScores[8] === euroScores[8] ];
+    return resultado;
+}
+
+console.log(comparaNota(asiaScores,euroScores));

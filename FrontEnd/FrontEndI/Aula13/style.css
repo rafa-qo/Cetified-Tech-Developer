@@ -1,0 +1,125 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+
+    padding: 24px;
+
+}
+
+.main-button {
+
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(95, 156, 158);
+    color: white;
+    border: none;
+    transition: 0.4s ease-out;
+
+}
+
+.main-button:hover {
+
+    background-color: rgb(153, 207, 209);
+    transform: scale(1.1) rotate(10deg) translate(30px);
+
+}
+
+p {
+
+    margin-top: 10px;
+    font-size: 22px;
+
+}
+
+.span-ghost {
+
+    font-size: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: block;
+    animation-name: ghost;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes ghost {
+
+    0% {
+
+        opacity: .3;
+        transform: translate(0, -50px);
+    }
+
+    50% {
+
+        opacity: 1;
+        transform: translate(0, 50px) scale(1.5);
+        /* font-size: 250px; */
+
+    }
+
+    100% {
+
+        opacity: 0.3;
+        transform: translate(0,-50px);
+
+    }
+    
+}
+
+.bolinha {
+
+    margin-top: 20px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: yellowgreen;
+    animation-name: bolinha;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes bolinha {
+
+    0% {
+
+        opacity: 0;
+
+    }
+
+    50% {
+
+        opacity: 1;
+        transform: translate(100px);
+
+    }
+    
+    100% {
+
+        opacity: 0;
+        transform: translate(0);
+
+    }
+}
+
+.logo {
+
+    width: 100px;
+    height: 100%;
+    margin-top: 30px;
+
+}
+
+.logo:hover {
+
+   transform: rotate(90deg) translate(20px);
+
+}

@@ -44,15 +44,15 @@ for (let i = 0; i < DadosClientes.length; i++) {
 const Banco = {
 
     clientes: contasClientes,
-    consultarCliente: function (titular) {
+    consultarCliente: function (nomecliente) {
         for (let i = 0; i < this.clientes.length; i++) {
-            if (titular === this.clientes[i].titular) {
+            if (this.clientes[i].cliente == nomecliente) {
                 return this.clientes[i];
             }
         }
     },
 };
 
-console.log (Banco.consultarCliente());
+console.log (Banco.consultarCliente("Abigael Natte"));
 
 

@@ -94,6 +94,6 @@ let ordemAlfabetica = meusAlunos.sort((a, b) => {return a.Nome.localeCompare(b.N
 
 console.log(ordemAlfabetica);
 
-let ordemNota = meusAlunos.sort((a,b)=>{return a.Nota - b.Nota});
+let ordemNota = meusAlunos.sort((a,b)=>{return b.Nota - a.Nota});
 
 console.log(ordemNota);

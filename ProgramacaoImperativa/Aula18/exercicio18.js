@@ -48,3 +48,22 @@ let criaArray = (b) => {
 };
 
 console.log(criaArray(10));
+
+// Novo Array
+// Você deve criar uma função chamada newArray que receba um número como parâmetro e retorne um novo array com a quantidade de elementos equivalente ao valor do número que você passou por parâmetro.
+
+newArray = (c) => {
+    let array = [];
+    let qtd = c;
+
+    for (let i = 0; i <= qtd; i++) {
+        array.push(i);
+    };
+    console.log(array);
+};
+
+newArray(5);
+
+// String.split()
+// Você deve criar uma função chamada split que receba uma string e simule o comportamento da função split original. Se você não sabe como funciona, o Google pode ajudá-lo.
+// Importante: Você não pode usar o String.split()

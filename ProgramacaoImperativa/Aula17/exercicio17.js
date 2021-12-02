@@ -97,3 +97,13 @@ console.log(ordemAlfabetica);
 let ordemNota = meusAlunos.sort((a,b)=>{return b.Nota - a.Nota});
 
 console.log(ordemNota);
+
+// Exercício Integrador
+
+function ControleVendas(nome, preco, qtde) {
+    this.nome = nome;
+    this.preco = preco;
+    this.qtde = qtde;
+}
+
+const trigo = new type(arguments);

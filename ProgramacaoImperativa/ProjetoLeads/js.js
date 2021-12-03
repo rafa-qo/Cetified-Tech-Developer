@@ -1485,9 +1485,11 @@ let leadsCount = fs.readFileSync('leadcount.txt', 'utf-8');
 let url = inputData.adset + inputData.term;
 
 if (url === logic.URLCampaign) {
-    logic.filter((a) => {
-        return logic[a];
-    })
+    logic.filter(a => a === logic.ID);
+        if (a >= 2) {
+            inputData.sort(logic[i].Account)
+        } 
+
 };
 
 if (a.ID == 1) {

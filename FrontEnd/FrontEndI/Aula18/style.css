@@ -1,0 +1,71 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+.main-header {
+    height: 50px;
+    display: flex;
+    background-color: rgb(9, 8, 63);
+    padding-left: 20px;
+}
+
+.main-header ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.main-header li {
+    list-style: none;
+    font: bold 20px "Times New Roman", serif;
+}
+
+.main-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-header a:hover {
+    color:rgb(65, 65, 65);
+}
+
+.banner {
+    height: calc(100vh - 50px);
+    width: 100%;
+    background-image: url('https://i0.wp.com/galeriaalmadarua.com.br/wp-content/uploads/2019/04/travel-landscape-01.jpg?ssl=1');
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.section2 {
+    display: flex;
+}
+
+.section2 h1 {
+    width: 200vw;
+    font: bold 120px "Times New Roman", serif;
+    text-align: right;
+    padding: 0 30px 0 30px;
+    color: rgb(9, 8, 63);
+}
+
+.section2 p {
+    font: 20px/40px "Helvetica", sans-serif ;
+    padding: 40px 60px 0 40px;
+    background-color: rgb(9, 8, 63);
+    color: white;
+}
+
+.section2 a {
+    text-decoration: none;
+    color: rgb(123, 109, 150);
+}

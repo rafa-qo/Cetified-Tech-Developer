@@ -114,7 +114,7 @@ let lucroTotal = (produtos) =>
     let lucroProduto = produtos.map((produto) => produto.precoPorKilo * produto.kilosVendidos);
     // console.log(lucroProduto);
     let resultado = lucroProduto.reduce((acum, item) => acum + item);
-    return resultado;
+    return "O lucro total dos produtos é: R$" + resultado;
 };
 
 console.log(lucroTotal(verduras));
@@ -125,7 +125,7 @@ let pesqProduto = (nomeproduto) =>
 {
     let nome = verduras.filter(produto => produto.nome === nomeproduto);
     let lucroProduto = nome.map(produto => produto.precoPorKilo * produto.kilosVendidos);
-    return lucroProduto;
+    return "O lucro de vendas de "+nomeproduto+" é: R$"+lucroProduto;
 };
 
 
@@ -137,12 +137,45 @@ let pesqValor = (valorprod) =>
     let lucroProduto = verduras.map(produto => produto.precoPorKilo * produto.kilosVendidos);
 
     let valor = lucroProduto.filter(num => num >= valorprod);
-    return valor;
+    return "Os valores maiores que "+valorprod+" são: "+valor;
 };
 
 console.log(pesqValor(5000));
 
 // Classifique todos os produtos pela quantidade de dinheiro que geraram.
-// let sortProd = verduras.sort(
-//     let lucroProduto = verduras.map(produto => produto.precoPorKilo * produto.kilosVendidos);
-// )
+
+let ordemVerduras = (ordem) => 
+{   
+    let lucroProduto = verduras.map(produto => produto.precoPorKilo * produto.kilosVendidos); 
+    ordem = lucroProduto.sort((a,b) => a - b);
+    return "Essa é a ordem de lucro por produto: " + ordem;
+};
+
+console.log (ordemVerduras(verduras));
+
+// Encontre um produto e atribua a ele um novo valor (reutilize o código que permite encontrar o produto pelo nome).
+
+let novoValor = (nomeproduto, valorNovo) => 
+{
+    let nome = verduras.filter(produto => produto.nome === nomeproduto);
+    // console.log(nome);
+    valor = nome.forEach((produto2) => produto2.precoPorKilo == valorNovo);
+    return "Novo valor de "+nomeproduto+": "+valorNovo;
+};
+
+
+console.log(novoValor('alface', 25));
+
+// Calcule o lucro total após pagar 45% do lucro em impostos.
+let ebtida = (produtos) =>
+{
+    let lucroProduto = produtos.map((produto) => produto.precoPorKilo * produto.kilosVendidos);
+    // console.log(lucroProduto);
+    let resultado1 = lucroProduto.reduce((acum, item) => acum + item);
+    // console.log (resultado1);
+    let resultado2 = resultado1 * 0.45;
+
+    return "O lucro total depois de impostos é: R$" + resultado2;
+};
+
+console.log(ebtida(verduras));

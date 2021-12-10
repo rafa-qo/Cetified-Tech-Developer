@@ -1,58 +1,38 @@
-// Micro desafio - Passo 3
-
-// Em um arquivo diferente, crie o objeto literal curso que tem como atributos: nome do curso (string), 
-// nota de aprovação (number), faltas máximas (number) e uma lista de estudantes (um array composto pelos alunos 
-//criados no passo 1).
-
-// Micro desafio - Passo 4
-
-//Crie o método que permite adicionar alunos à lista do curso, ou seja, quando chamamos nosso método em 
-//nosso objeto curso, deverá adicionar um aluno a mais na propriedade lista de estudantes do objeto curso.
-let aluno = require('./listaestudantes');
+const addCadastro = require('./cadastro');
+const listaAlunos = require('./listaestudantes');
 
 const curso = {
     nomeCurso: 'CTD',
     notaAprovacao: 7,
-    faltasMaxima: 5, 
-    listaEstudantes: aluno,
-    adicionarAluno: function(a){
-      this.listaEstudantes.push(a);
-      return true;
+    faltaMaxima: 5, 
+    listaEstudantes: listaAlunos,
+    adicionarAluno: function(nome, qtdFalta, notas){
+      this.listaEstudantes.push(new addCadastro.cadastro(nome, qtdFalta, notas));
     },
-    alunoPassou: function(aluno){
-      let qtdFaltas = aluno.qtdFalta;
-      let mediaAluno = aluno.calcularMedia();
-
-      if((mediaAluno >= this.notaAprovacao) && (qtdFaltas < this.faltasMaxima)){
-          return true;
-      }
-      else if(qtdFaltas == this.faltasMaxima){
-          if(mediaAluno >= (this.notaAprovacao/10)+this.notaAprovacao){
-              return true;
-          }
-          else{
-              return false;
-          }   
-      }
-      else{
-          return false;
-      }
-  },
-  situacaoAlunos: () => {
-      let situacaoAlunos = [];
-      curso.listaEstudantes.forEach(e => {
-          situacaoAlunos.push(curso.alunoPassou(e))
-      });
-
-      return situacaoAlunos;
-  }
+    alunoPassou: function (objeto) {
+        let falta = objeto.qtdFalta;
+        let mediaAluno = addCadastro.calcularMedia(objeto.notas);
+        
+        if (mediaAluno >= this.notaAprovacao && falta < this.faltaMaxima) {
+            return true;
+        } else if (falta == this.faltaMaxima && mediaAluno > 1.1*this.notaAprovacao) {
+            return true;
+        } else {
+            return false;
+        }
+    },
+    listaAprovados: function () {
+        let lista = [];
+        for (let index = 0; index < this.listaEstudantes.length; index++) {
+            lista.push(this.alunoPassou(this.listaEstudantes[index]));
+        };
+        return lista;
+    },
 }
 
+curso.adicionarAluno("Joana Dark", 5, [8,9,10]);
+curso.adicionarAluno("Joao Light", 2, [2,7,1]);
 
-aluno.forEach(aluno=>{
-  curso.adicionarAluno(aluno);
-});
+console.log (curso.alunoPassou(curso.listaEstudantes[5]));
 
-// console.log(curso);
-
-// console.log(curso.situacaoAlunos());
+console.log(curso.listaAprovados());

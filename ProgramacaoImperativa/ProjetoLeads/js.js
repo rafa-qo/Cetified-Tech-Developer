@@ -4115,8 +4115,23 @@ logic = [
 
 let campaign = "LEADAD-SÃOPAULO_COUNTRYSIDE-Q1-2021-DAILYLEADAD-SÃOPAULO_COUNTRYSIDE_NEAR_LOOKALIKES_10%_MARCH_UPDATEIndaiatuba";
 
-let array = logic.filter(x => {
+// let output = [];
+
+let filtro = logic.filter(x => {
     return x.Campaign === campaign;
-  });
+});
+
+// return filtro;
+
+console.log(filtro);
+
   
-  console.log(array);
+output = [
+    {
+        ID: filtro.ID,
+        UF: filtro.UF,
+        Count: filtro.Count
+    }
+];
+
+console.log (output);

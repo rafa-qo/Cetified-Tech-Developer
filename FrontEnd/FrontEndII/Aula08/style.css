@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 400px;
+    height: auto;
+    position: relative;
+    margin: 0 30px 0;
+}
+
+h1 {
+    font: 24px "Helvetica", sans-serif;
+    margin-bottom: 10px;
+}
+
+#form1 {
+    margin: 30px;
+}
+
+label {
+    margin: 0 0 10px 0;
+    font: 15px "Helvetica", sans-serif;
+}
+
+input{
+    margin: 0 10px 10px 0;
+}
+
+button {
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.red {
+    color: red;
+}

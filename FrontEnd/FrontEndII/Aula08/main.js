@@ -28,8 +28,11 @@ botaoReset.appendChild(botaoResetTexto);
 formSelector.appendChild(botaoReset);
 
 
-let textoCor = document.querySelectorAll("#form1");
+let textoCor = document.getElementsByClassName("label");
 
-textoCor.onmouseover = function() {
-    this.classList.toggle("red");
+function sobreOMouse(evento) {
+    evento.target.style.backgroundColor = "red";
 };
+
+
+textoCor.addEventListener("mouseover", sobreOMouse);

@@ -1,45 +1,60 @@
-// 1. Selecione o formulário
-var selectForm = document.getElementById("formularioDeCadastro");
-var selectCampo = document.querySelector(".c-form__campo")
-var selectButton = document.querySelector(".c-form__botao")
+let formulario = document.getElementById('formularioDeCadastro');
+let listaDados = document.getElementById('listaItems');
 
-selectButton.addEventListener("click", function(evento){
-    var selectCampoValue = selectCampo.value.trim();
+function createLiElement(conteudo){
+    let liElement =  document.createElement('li');
+    liElement.classList.add('c-lista__item');
 
-    // 2.2. Valide se existem caracteres especiais
-    // if (verificaCampoVazio(selectCampoValue)){
-    //     selectButton.innerHTML = "<button class="c-form__botao u-my" type="button">Adicionar item</button>";
-    // };
-    
-    if (verificaCaracterEsp(selectCampoValue)) {
-        alert("Esse campo não aceita caracteres especiais.");
-    };
+    let contentLi = document.createTextNode(conteudo);
+    liElement.appendChild(contentLi);
 
-
-})
-
-// Funções
-function verificaCaracterEsp(valor) {
-    var valorVerificado = /\W/g.test(valor);
-     return valorVerificado;
-};
-
-function verificaCampoVazio(valor) {
-    var valorVerificado = valor === "";
-    return valorVerificado;
+    listaDados.appendChild(liElement);
 }
 
+formulario.addEventListener('submit', (e) => {
+    e.preventDefault();
 
-
-
-/* 
-
-
-        - 2.3. Caso passe na validacão, apresente o item no elemento DOM `<li class="c-lista__item">`.
-
+    let textoNaoTratado = e.target['item'].value;
+    if(verificaCaracteresEspeciais(textoNaoTratado)){
+        alert('Não é permitido o uso de caracteres especiais em sua lista.')
+    }
+    else{
+        let textoTratado = textoNaoTratado.replace(" ", '');
+        textoTratado = textoTratado.replace(/\d/g, '');
+        createLiElement(textoTratado);
     
+        e.target['item'].value="";
+    }  
+})
 
-        - 2.2. Valide se existem caracteres especiais 
+//  Aula 11
 
-            - Se o campo possuir caracteres especiais, apresente a seguinte mensagem no console do navegador `"Não é permitido o uso de caracteres especiais em sua lista."`.
-*/
+let botaoSubmit = document.getElementById('botaoSubmit');
+let campoFormulario = document.getElementById('campoItem');
+
+console.log(campoFormulario)
+
+function verificaCaracteresEspeciais(texto){
+    let regex = /\W/g
+    let validaCaracteresEspeciais = regex.test(texto)
+    console.log(validaCaracteresEspeciais)
+    return validaCaracteresEspeciais
+}
+
+function verificaCampoVazio(texto){
+    let respostaCampoVazio = texto === ""
+    console.log("campo vazio: "+respostaCampoVazio)
+    
+    return respostaCampoVazio
+}
+
+campoFormulario.addEventListener('blur', (e) => {
+    let conteudoCampo = e.target.value
+    console.log("conteudo do campo: "+conteudoCampo)
+    if(verificaCampoVazio(conteudoCampo)){
+        botaoSubmit.disabled = true
+    }else{
+        botaoSubmit.disabled = false
+    }
+    verificaCaracteresEspeciais(conteudoCampo)
+})

@@ -45,7 +45,7 @@ function verificaCampoVazio(texto){
     let respostaCampoVazio = texto === ""
     console.log("campo vazio: "+respostaCampoVazio)
     
-    return respostaCampoVazio
+    return respostaCampoVazio;
 }
 
 campoFormulario.addEventListener('blur', (e) => {

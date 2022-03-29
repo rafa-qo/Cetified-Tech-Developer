@@ -39,6 +39,10 @@
     padding: 10px 5px;
 }
 
+.c-form__botao:disabled {
+    background-color: rgba(255, 68, 0, .6);
+}
+
 .c-lista {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
@@ -57,6 +61,7 @@
     gap: 25px;
     margin: 0 auto;
     max-width: 480px;
+    padding: 50px 25px;
 }
 
 .u-my {

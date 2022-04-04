@@ -1,16 +1,30 @@
 
+//    1. Capture o nome do usuário a partir do campo `<input name="usuario">`
+
+var usuario = document.querySelector(".c-form__campo");
+
+var button = document.querySelector(".c-form__botao");
+
+//   - 1.1. Armazene esse valor em uma variável;
+
+// var nomeUsuario = usuario[1].value;
+
+if ( usuario == "") {
+    button.setAttribute("disabled", "");
+    button.classList.toggle("c-form__botao_disabled");
+} else {
+    button.removeAttribute("disabled");
+    button.classList.toggle("c-form__botao_disabled");
+};
+
+//    - 2.2. Redirecione o usuário e envie o valor para rota `resultado/` com parametro `nome`.
+
+button.addEventListener ("submit", function(event){
+
+
+})
+
 /*
-
-    Implemente seu algorítmo aqui...
-
-    Resumo da atividade:
-
-    1. Capture o nome do usuário a partir do campo `<input name="usuario">`:
-
-    - 1.1. Armazene esse valor em uma variável;
-
-    - 2.2. Redirecione o usuário e envie o valor para rota `resultado/` com parametro `nome`.
-
     2. Crie um parametro `lang` e defina o valor `br`. 
 
     3. Capture o valor do parametro `usuario`:

@@ -52,8 +52,8 @@ body {
     padding: 10px 5px;
 }
 
-.c-form__botao:disabled {
-    background-color: rgba(255, 68, 0, .6);
+.c-form__botao_disabled {
+    background-color: rgba(50,50,50);
 }
 
 .u-my {

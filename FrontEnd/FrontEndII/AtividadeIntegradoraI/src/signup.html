@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App</title>
+
+  <!-- ---------------- estilos compartilhados entre login e signup ---------------- -->
+  <link rel="stylesheet" href="./styles/access.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/images/favicon.svg">
+
+</head>
+
+<body>
+
+  <div class="left">
+    <img src="./assets/images/pessoa-signup.png" alt="">
+  </div>
+  <div class="right">
+    <form novalidate>
+      <div class="form-header">
+        <p>To-Do App</p>
+      </div>
+      <h1>Registrar</h1>
+
+      <label>
+        Nome:
+        <input id="inputNomeCadastro" type="text">
+        <small class="erro" hidden></small>
+      </label>
+      <label>
+        Sobrenome:
+        <input id="inputSobrenomeCadastro" type="text">
+        <small class="erro" hidden></small>
+      </label>
+      <label>
+        Email:
+        <input id="inputEmailCadastro" type="email">
+        <small class="erro" hidden></small>
+      </label>
+      <label>
+        Senha:
+        <input id="inputSenhaCadastro" type="password">
+        <small class="erro" hidden></small>
+      </label>
+      <label>
+        Confirmar senha:
+        <input id="inputRepetirSenhaCadastro" type="password">
+        <small class="erro" hidden></small>
+      </label>
+
+      <button id="botaoCriarContaCadastro" type="submit">Criar conta</button>
+
+    </form>
+    <div class="ingressar">
+      Já tem uma conta? <a href="index.html">Acesse aqui</a>
+    </div>
+  </div>
+  <!-- ---------------------- lógica aplicada no registro -------------------- -->
+  <script src="./scripts/validations/utils.js"></script>
+  <script src="./scripts/signup/signup.js"></script>
+</body>
+
+</html>

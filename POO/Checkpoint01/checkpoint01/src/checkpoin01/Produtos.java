@@ -1,44 +1,47 @@
 package checkpoin01;
 
-public class Pratos {
-    private Integer idPrato;
-    private static Integer valorPrato;
-    private Integer valorImposto;
-    private String nomePrato;
 
-    public Pratos(Integer idPrato, Integer valorPrato, Integer valorImposto, String nomePrato){
-        this.idPrato = idPrato;
-        this.valorPrato = valorPrato;
-        this.valorImposto = valorImposto;
-        this.nomePrato = nomePrato;
+
+public class Produtos{
+    private Integer idProduto;
+    private static Integer valorProduto;
+    private static String nomeProduto;
+
+    // Construtor
+    public Produtos(Integer idProduto, Integer valorProduto, String nomeProduto){
+        this.idProduto = idProduto;
+        this.valorProduto = valorProduto;
+        this.nomeProduto = nomeProduto;
     };
 
-    public Integer getIdPrato() {
-        return idPrato;
+    // Getters e Setters
+    public Integer getIdProduto() {
+        return idProduto;
     }
 
-
-    public static Integer getValorPrato() {
-        return valorPrato;
+    public void setIdProduto(Integer idProduto) {
+        this.idProduto = idProduto;
     }
 
-    public void setValorPrato(Integer valorPrato) {
-        this.valorPrato = valorPrato;
+    public static Integer getValorProduto() {
+        return valorProduto;
     }
 
-    public Integer getValorImposto() {
-        return valorImposto;
+    public void setValorProduto(Integer valorProduto) {
+        this.valorProduto = valorProduto;
     }
 
-    public String getNomePrato() {
-        return nomePrato;
+    public static String getNomeProduto() {
+        return nomeProduto;
     }
 
-    public void setNomePrato(String nomePrato) {
-        this.nomePrato = nomePrato;
+    public void setNomeProduto(String nomeProduto) {
+        this.nomeProduto = nomeProduto;
     }
 
-    public void valorComImposto(Integer valor){
-        Integer valorComImpostoPrato = valorImposto + valorPrato;
-    };
+    // Métodos
+    public static Integer valorPedido(Integer valor) {
+        valor = getValorProduto() * Pedidos.getQtde();
+        return valor;
+    }
 }

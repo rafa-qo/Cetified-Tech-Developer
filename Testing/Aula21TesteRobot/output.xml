@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on darwin)" generated="20220629 23:07:00.190" rpa="false" schemaversion="3">
+<suite id="s1" name="Aula07" source="/Users/Rafa/Library/CloudStorage/OneDrive-Pessoal/Documentos/Documentos pessoais/Cursos/Cetified-Tech-Developer/Testing/Aula21TesteRobot/aula07.robot">
+<test id="s1-t1" name="Processo de compra de uma carteira Jouse" line="7">
+<kw name="Acessar a loja Jouse" library="aula07">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220629 23:07:00.526" level="INFO">Opening browser 'Chrome' to base url 'http://www.jouse.com.br'.</msg>
+<status status="PASS" starttime="20220629 23:07:00.525" endtime="20220629 23:07:08.825"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220629 23:07:08.825" endtime="20220629 23:07:08.974"/>
+</kw>
+<status status="PASS" starttime="20220629 23:07:00.525" endtime="20220629 23:07:08.975"/>
+</kw>
+<kw name="Clicar em Compre Agora" library="aula07">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ENTRAR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220629 23:07:08.976" level="INFO">Clicking element 'css=.jss24:nth-child(2) &gt; .jss14'.</msg>
+<status status="PASS" starttime="20220629 23:07:08.976" endtime="20220629 23:07:09.103"/>
+</kw>
+<status status="PASS" starttime="20220629 23:07:08.975" endtime="20220629 23:07:09.104"/>
+</kw>
+<kw name="Selecionar uma cor e acabamento" library="aula07">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${SELECTCOLOR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220629 23:07:09.106" level="INFO">Clicking element 'xpath=//div[@id='__next']/main/div/div/div[2]/div/div[2]/div'.</msg>
+<status status="PASS" starttime="20220629 23:07:09.105" endtime="20220629 23:07:09.452"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${SELECTACABAMENTO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220629 23:07:09.453" level="INFO">Clicking element 'xpath=//div[@id='__next']/main/div/div/div[2]/div[2]/div[2]/div'.</msg>
+<status status="PASS" starttime="20220629 23:07:09.452" endtime="20220629 23:07:09.544"/>
+</kw>
+<status status="PASS" starttime="20220629 23:07:09.104" endtime="20220629 23:07:09.544"/>
+</kw>
+<status status="PASS" starttime="20220629 23:07:00.521" endtime="20220629 23:07:09.545"/>
+</test>
+<status status="PASS" starttime="20220629 23:07:00.192" endtime="20220629 23:07:09.546"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Aula07">Aula07</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

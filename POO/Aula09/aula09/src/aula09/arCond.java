@@ -1,2 +1,5 @@
-package aula09;public class arCond {
+package aula09;
+
+public class arCond {
+    
 }

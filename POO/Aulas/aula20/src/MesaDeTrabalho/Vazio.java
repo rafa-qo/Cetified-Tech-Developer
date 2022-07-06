@@ -1,5 +1,7 @@
 package MesaDeTrabalho;
 
+import java.util.ArrayList;
+
 public class Vazio implements Estado{
     Carrinho c;
 
@@ -10,13 +12,13 @@ public class Vazio implements Estado{
 
     //Métodos
     //Métodos
-    public void adicionarProduto(Produto produto){
+    public void adicionarProduto(ArrayList<Produto> listaProdutos){
         System.out.println("O carrinho está vazio. Adicione seus produtos!");
         this.avancar();
     }
 
     public void cancelar(){
-        //Não tem mudança
+        this.c.setEstado(new Vazio(c));
     }
 
     public void voltar(){
@@ -27,4 +29,12 @@ public class Vazio implements Estado{
         this.c.setEstado(new Carregando(c));
     }
 
+    //getters e setters
+    public Carrinho getC() {
+        return c;
+    }
+
+    public void setC(Carrinho c) {
+        this.c = c;
+    }
 }

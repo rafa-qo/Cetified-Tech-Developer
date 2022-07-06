@@ -1,5 +1,7 @@
 package MesaDeTrabalho;
 
+import java.util.ArrayList;
+
 public class Pagando implements Estado{
 
     Carrinho c;
@@ -11,19 +13,19 @@ public class Pagando implements Estado{
     }
 
     //Métodos
-    public void adicionarProduto(Produto produto){
-        //Sem mudança
+    public void adicionarProduto(ArrayList<Produto> listaProdutos){
+        System.out.println("Não é possível adicionar produtos. Volte para a etapa anterior.");
     }
 
     public void cancelar(){
-        this.c.setEstado(new Vazio(c));
+        // Sem mudanças
     }
 
     public void voltar(){
-        this.c.setEstado(new Carregando(c));
+        // Sem mudanças
     }
 
     public void avancar(){
-        c.setEstado(new Fechado(c));
+        // Sem mudanças
     }
 }

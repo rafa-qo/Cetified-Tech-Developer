@@ -16,18 +16,22 @@ public class Carrinho {
     //Métodos
     public void adicionarProduto(Produto produto){
         this.listaProdutos.add(produto);
+        getEstado().adicionarProduto(listaProdutos);
     }
 
     public void cancelar(){
-        //TODO
+        getEstado().cancelar();
+        this.listaProdutos.clear();
+        //this.listaProdutos.removeAll(listaProdutos);
     }
 
     public void voltar(){
-        //TODO
+        getEstado().voltar();
     }
 
     public void avancar(){
-        //TODO
+        System.out.println("Você avançou!");
+        getEstado().avancar();
     }
 
     public void mostrarProduto(){

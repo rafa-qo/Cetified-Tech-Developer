@@ -1,5 +1,7 @@
 package MesaDeTrabalho;
 
+import java.util.ArrayList;
+
 public class Fechado implements Estado {
 
     Carrinho c;
@@ -10,7 +12,7 @@ public class Fechado implements Estado {
     }
 
     //Métodos
-    public void adicionarProduto(Produto produto){
+    public void adicionarProduto(ArrayList<Produto> produto){
         //Sem mudança
     }
 

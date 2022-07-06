@@ -1,8 +1,9 @@
 package MesaDeTrabalho;
 
-public interface Estado {
+import java.util.ArrayList;
 
-    void adicionarProduto(Produto produto);
+public interface Estado {
+    void adicionarProduto(ArrayList<Produto> listaProdutos);
     void cancelar();
     void voltar();
     void avancar();

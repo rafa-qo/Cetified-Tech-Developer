@@ -1,5 +1,7 @@
 package MesaDeTrabalho;
 
+import java.util.ArrayList;
+
 public class Carregando implements Estado{
 
     Carrinho c;
@@ -10,8 +12,9 @@ public class Carregando implements Estado{
     }
 
     //Métodos
-    public void adicionarProduto(Produto produto){
-        this.c.adicionarProduto(produto);
+    public void adicionarProduto(ArrayList<Produto> listaProdutos){
+        c.setEstado(new Carregando(c));
+        // TODO this.c.adicionarProduto();
     }
 
     public void cancelar(){

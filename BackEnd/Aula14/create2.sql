@@ -1,0 +1,2 @@
+create table if not exists paciente (id int primary key auto_increment, nome varchar(255), sobrenome varchar(255),RG varchar(10), dataCadastro varchar(10));
+create table if not exists endereco (id int primary key auto_increment, rua varchar(255), numero varchar(10),cidade varchar(10), bairro varchar(10), idPaciente int);

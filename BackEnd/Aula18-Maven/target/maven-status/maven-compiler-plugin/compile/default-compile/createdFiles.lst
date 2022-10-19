@@ -1,0 +1,9 @@
+MesaDeTrabalho/Main.class
+main/java/MesaDeTrabalho/Dentista.class
+MesaDeTrabalho/ClinicaDaoH2.class
+main/java/MesaDeTrabalho/ConnectionJDBC.class
+MesaDeTrabalho/Endereco.class
+MesaDeTrabalho/ConfigJDBC.class
+MesaDeTrabalho/ClienteService.class
+MesaDeTrabalho/IDao.class
+MesaDeTrabalho/Paciente.class

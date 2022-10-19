@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2c26998-39c2-442e-8f02-eecae7b9f63d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Aula18-Maven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Aula18-Maven/src/main/java/MesaDeTrabalho/ConnectionJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Aula18-Maven/src/main/java/MesaDeTrabalho/Dentista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Aula18-Maven/src/main/java/MesaDeTrabalho/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../BancodeDados/Aula9/spotify-room3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../BancodeDados/ReviewCheckpoint 1/Checkpoint1-BancodeDados.drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndI/Aula15/img/twitter-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndI/Aula7/imgs/3472.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndI/Aula7/imgs/—Pngtree—modern double color futuristic neon_1181573.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndI/Aula9/imgs/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndI/CheckpointI/Site/img/2646136269_3e289b47e7_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndI/CheckpointI/Site/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndI/CheckpointI/Site/img/bgpb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndI/CheckpointI/Site/img/diversity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndI/CheckpointI/Site/img/population.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndI/CheckpointI/Site/img/revenue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/AtividadeIntegradoraI/src/assets/images/pessoa-login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/AtividadeIntegradoraI/src/assets/images/pessoa-signup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/AtividadeIntegradoraI/src/assets/images/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/AtividadeIntegradoraI/src/assets/images/send.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula09/images/profile.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula13/atividade-integradora/src/assets/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula16/atividade-integradora/src/assets/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula17/imagens/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula17/imagens/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula17/imagens/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula17/imagens/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula17/imagens/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula17/imagens/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula17/imagens/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula17/imagens/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula17/imagens/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula17/imagens/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula17/imagens/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula17/imagens/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula17/imagens/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/Aula18/atividade-integradora/src/assets/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../FrontEnd/FrontEndII/CheckpointI/images/profile.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../InfraI/Aula09/Kit de sobrevivência do PowerShell.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 10/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 10/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 10/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 10/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 10/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 10/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 10/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 10/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 10/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 10/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 10/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 10/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 10/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 11/Captura de tela 2021-09-28 185434.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 13/infografico-paradigmas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 14/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 16/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 16/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 17/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 4/Passo-a-passo-adicionar-arquivos-repositorio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 4/Passo-a-passo-criar-repositorio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 5/GIT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 7/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 7/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 7/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 7/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 7/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 7/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 7/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 7/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 7/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 7/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 8/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 8/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 8/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../IntroducaoInformatica/Aula 8/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../POO/Checkpoint01-2/Exercicio2-Diagrama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../POO/Checkpoint01/Exercicio2-Diagrama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../POO/Checkpoint02/poo-checkpoint-2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../POO/Checkpoint02/poo-checkpoint-2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/Aula21TesteRobot/selenium-screenshot-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/Aula21TesteRobot/selenium-screenshot-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/Aula21TesteRobot/selenium-screenshot-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/Aula21TesteRobot/selenium-screenshot-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/Aula21TesteRobot/selenium-screenshot-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/Aula21TesteRobot/selenium-screenshot-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/chico.resource" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/chico.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Testing/ProvaTestingII/selenium-screenshot-9.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="ProjectId" id="2DglUMVCunjpcVEhQsKedUoV6cw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/Rafa/Library/CloudStorage/OneDrive-Pessoal/Documentos/Documentos pessoais/Cursos/Cetified-Tech-Developer/BackEnd/Aula14/src/main/java/MesaDeTrabalho"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2c26998-39c2-442e-8f02-eecae7b9f63d" name="Changes" comment="" />
+      <created>1661128622717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661128622717</updated>
+    </task>
+    <servers />
+  </component>
+</project>

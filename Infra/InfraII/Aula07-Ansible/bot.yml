@@ -53,7 +53,7 @@
       vpc_subnet_id: "{{ subnet_id }}"
       assign_public_ip: yes
       key_name: "{{ keipair_name }}"
-    register: info
+  register: info
     name: IP público do nosso servidor
     debug:
       var: info.instances[0].public_ip

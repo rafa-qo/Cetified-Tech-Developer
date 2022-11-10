@@ -1,41 +1,60 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body{
+  background-color: #151515;
+  margin-left: 30px;
+  padding-left: 30px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font: bold 24px "Rockwell", serif;
+  color: aliceblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h2 {
+  font: normal 18px "Rockwell", serif;
+  color: aliceblue;
+}
+
+.header-form{
+  margin: 0px 20px 40px 40px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #202020;
+  display:block;
+  position: relative;
+}
+
+.formInput{
+  float: left;
+  margin-right: 10px;
+  width: 300px;
+  height: 30px;
+
+}
+
+.formButton {
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: #36CE7C;
+  font: normal 15px "Rockwell", serif;
+  color: #ffffff;
 }
 
 .card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  margin: 10px;
+  padding: 50px 50px 10px 10px;
+  float: left;
+  border-radius: 10px;
+  /* border: 1px solid #ffffff; */
+  width: 350px;
+  height: 250px;
 }

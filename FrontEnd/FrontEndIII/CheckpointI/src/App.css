@@ -7,6 +7,7 @@
 }
 
 body{
+  width: 810px;
   background-color: #151515;
   margin-left: 30px;
   padding-left: 30px;
@@ -23,7 +24,7 @@ h2 {
 }
 
 .header-form{
-  margin: 0px 20px 40px 40px;
+  margin: 0px 0px 40px 0px;
   padding: 30px;
   border-radius: 10px;
   background-color: #202020;
@@ -57,4 +58,10 @@ h2 {
   /* border: 1px solid #ffffff; */
   width: 350px;
   height: 250px;
+}
+
+.errorLine {
+  margin-top: 10px;
+  font: normal 10px "Rockwell", serif;
+  color: brown;
 }

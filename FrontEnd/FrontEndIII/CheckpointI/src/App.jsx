@@ -13,18 +13,22 @@ function App() {
 
   const [card, setCard] = useState(
     [
-      {
-        nome: "",
-        hexadecimal: ""
-      }
+
     ]
   );
+
+  const [error,setError] = useState();
   
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    if(formData.hexadecimal.length == 6 || formData.nome != ""){
+    if(formData.hexadecimal.length != 6 || formData.nome.length < 3){
 
+      setError("Opção inválida");
+      alert("Formato inválido. Digite o nome da cor e o Hexadecimal com 6 dígitos e sem o #");
+
+    } else {
+      
       setCard([...card, 
         {
           nome: formData.nome, 
@@ -32,10 +36,14 @@ function App() {
         }
       ])
 
-    } else {
-    
-      alert("Formato inválido. Digite o nome da cor e o Hexadecimal com 6 dígitos e sem o #");
-      
+      setError("");
+      setFormData(
+        {
+          nome: "", 
+          hexadecimal: ""
+        }
+      );
+
     }
 
   };
@@ -52,10 +60,11 @@ function App() {
             onChange={(evento)=>setFormData({...formData, hexadecimal: evento.target.value})}
             placeholder='Digite o Hexadecimal sem o #'/>
           <input className='formButton' type="submit" onClick={handleSubmit} />
+          <span className='errorLine'>{error}</span>
         </form>
       </div>
 
-      <h1>Cores selecionadas</h1>
+      <h1 style={{paddingLeft:30}}>Cores selecionadas</h1>
 
       {card.map((card)=>{
         return(

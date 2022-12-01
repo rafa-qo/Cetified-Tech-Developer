@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-import LanguageContext from "../context";
+import LanguageContext, { languages } from "../context";
 
 
-const LanguagueProvider = ({ children }) => {
+const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState("US");
 
   function handleLanguage() {
@@ -21,4 +21,4 @@ const LanguagueProvider = ({ children }) => {
   );
 };
 
-export default LanguagueProvider;
+export default LanguageProvider;

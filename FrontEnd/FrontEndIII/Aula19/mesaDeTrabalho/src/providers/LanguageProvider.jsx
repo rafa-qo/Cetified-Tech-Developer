@@ -1,6 +1,6 @@
-import { createContext, useState } from "react";
+import { useState } from "react";
 
-import { languages, LanguageContext } from "../context";
+import LanguageContext from "../context";
 
 
 const LanguagueProvider = ({ children }) => {

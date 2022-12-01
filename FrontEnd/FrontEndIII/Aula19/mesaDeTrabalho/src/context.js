@@ -19,6 +19,4 @@ export const languages = {
 /* DICA: Use o createContext e inicie o idioma inglês como padrão(default) */
 const LanguageContext = createContext({});
 
-
-
 export default LanguageContext;

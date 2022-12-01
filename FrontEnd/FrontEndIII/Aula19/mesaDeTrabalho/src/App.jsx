@@ -3,15 +3,18 @@ import React, { useState } from 'react'
 import LanguageContext, { languages } from './context';
 import Navbar from './components/Navbar';
 import Body from './components/Body';
-import LanguagueProvider from './providers/LanguageProvider';
+import LanguageProvider from './providers/LanguageProvider';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
 
   const [language, setLanguage] = useState(languages.US);
 
+  const { id } = language;
+
   const handleChangeLA = () => {
     setLanguage(() => {
-        if (language === "US") {
+        if (id === "US") {
           setLanguage("PT-BR");
       } else {
           setLanguage("US");
@@ -20,14 +23,14 @@ function App() {
   }
 
   return (
-    <LanguagueProvider>
+    <LanguageProvider>
       <BrowserRouter>
           <Navbar />
           <Routes>
             <Route path="/" element={<Body />} />
           </Routes>
         </BrowserRouter>
-      </LanguagueProvider>
+      </LanguageProvider>
   )
 }
 

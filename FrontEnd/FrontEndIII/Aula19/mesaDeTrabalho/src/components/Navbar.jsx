@@ -7,7 +7,7 @@ const Navbar = () => {
     
     return (
         <div className="navbar">
-            <p>Início</p> 
+            <p>{language.home}</p> 
             <p>{language.current}: {languageID}</p>
             <button onClick={handleLanguageID}>{language.button}</button>
         </div>

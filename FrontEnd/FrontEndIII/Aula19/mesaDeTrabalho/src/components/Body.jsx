@@ -1,20 +1,16 @@
 import React, { useContext } from 'react'
-import LanguageContext, { languages } from '../context'
+import { LanguageContext } from '../providers/LanguageProvider';
 
 const Body = () => {
 
     const { language } = useContext(LanguageContext);
 
-    const { title, description } = language;
-
-    
-    /* DICA: Utilize o useContext() */
     
     return (
         <div>
             {/* DICA: Utilize os valores capturados via contexto */}
-            <h1>{title}</h1>
-            <p>{description}</p>
+            <h1>{language.title}</h1>
+            <p>{language.description}</p>
         </div>
     )
 }

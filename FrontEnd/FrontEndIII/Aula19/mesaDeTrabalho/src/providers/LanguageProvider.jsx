@@ -1,4 +1,19 @@
 import React, { useState, useEffect, createContext } from "react";
+import EN from "./languages/english.json"
+import PTBR from "./languages/portuguese.json"
+import ES from "./languages/spanish.json"
+
+export const languages = {
+  US: {
+      id: "EN",
+      text: EN
+  },
+
+  PT: {
+      id: "PT-BR",
+      text: PTBR
+  }
+};
 
 export const LanguageContext = createContext({});
 
